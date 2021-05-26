@@ -38,11 +38,14 @@ const getMeme = (language) => {
     if (language == "en") {
         console.log('Meme in english comming up!')
         memeIsPortuguese = false;
+        console.log(filter)
+        filter = ["lol", "meme", "star-wars", "cat", "images", "random", "dog", "funny", "NSFW", "Girl", "WTF", "Cryptocurrency", "Anime", "Manga", "Random", "Animals", "Anime-Waifu", "Awesome", "Car", "Comic", "Cosplay", "Gaming", "GIF", "Politics"]
     }
 
     if (language == "pt") {
         console.log('Meme in portuguese comming up!')
         memeIsPortuguese = true;
+        filter = ["lol", "meme", "star-wars", "cat", "images", "random", "dog", "funny", "NSFW", "Girl", "WTF", "Cryptocurrency", "Anime", "Manga", "Random", "Animals", "Anime-Waifu", "Awesome", "Car", "Comic", "Cosplay", "Gaming", "GIF", "Politics"]
     }
 
     if (language == "dev") {
@@ -50,6 +53,7 @@ const getMeme = (language) => {
         memeIsDev = true
         memeIsPortuguese = false;
         filter = ["coding+memes", "developer+memes", "meme", "competition"]
+        console.log(filter)
  
     }
 
