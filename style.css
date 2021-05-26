@@ -87,3 +87,14 @@ h1 {
     justify-content: center;
     margin-top: 50px;
 }
+
+img.meme-image {
+    width: 25vw;
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    img.meme-image {
+        width: 70vw;
+    }
+}
